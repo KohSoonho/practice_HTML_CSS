@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+html{
+	font-size: 18px;
+}
+
+body{
+	font-size: 20px;
+}
+
+p{
+	font-size: 0.6rem; // 16 * 0.7 px
+}
+
+em{
+	font-size: 0.9rem; // 16 * 0.9 px
+}
+
+#link{
+	font-size: 1rem;
+}
