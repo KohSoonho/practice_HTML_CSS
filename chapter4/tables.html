@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset = "utf-8">
+<title>表の作成</title>
+<link rel = "stylesheet" href = "tables.css">
+</head>
+
+<body>
+<h4>表1</h4>
+<table id = "table1">
+	<tr>
+		<td>小麦粉</td>
+		<td>２００ｇ</td>
+	</tr>
+	<tr>
+		<td>卵</td>
+		<td>１個</td>
+	</tr>
+	<tr>
+		<td>牛乳</td>
+		<td>６０ｃｃ</td>
+	</tr>
+</table>
+
+<h4>表2</h4>
+<table id = "table2">
+	<tr>
+		<th scope = "row">小麦粉</th>
+		<td>２００ｇ</td>
+	</tr>
+	<tr>
+		<th scope = "row">卵</th>
+		<td>１個</td>
+	</tr>
+	<tr>
+		<th scope = "row">牛乳</th>
+		<td>６０ｃｃ</td>
+	</tr>
+</table>
+
+<h4>表3</h4>
+<table id = "table3">
+	<tr>
+		<th scope = "col">小麦粉</th>
+		<th scope = "col">卵</th>
+		<th scope = "col">牛乳</th>
+	</tr>
+	<tr>
+		<td>２００ｇ</td>
+		<td>１個</td>
+		<td>６０ｃｃ</td>
+	</tr>
+</table>
+</body>
+
+<h4>表4</h4>
+<table id = "table4">
+	<caption>クレープ生地の材料</caption>
+	<thead>
+		<tr>
+			<th scope = "col">食材</th>
+			<th scope = "col">量</th>
+			<th scope = "col">下準備</th>
+		</tr>
+	</thead>
+	
+	<tbody>
+		<tr>
+			<th scope = "row">小麦粉</th>
+			<td>２００ｇ</td>
+			<td>ふるいにかけておく</td>
+		</tr>
+		<tr>
+			<th scope = "row">卵</th>
+			<td>１個</td>
+			<td>常温に戻し溶いておく</td>
+		</tr>
+		<tr>
+			<th scope = "row">牛乳</th>
+			<td>６０ｃｃ</td>
+			<td>冷蔵庫から早めに出しておく</td>
+		</tr>
+	</tbody>
+</table>
+
+</html>
