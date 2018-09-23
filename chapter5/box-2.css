@@ -1,0 +1,19 @@
+@charset "utf-8"; 
+
+strong{
+	display: block;
+}
+
+li{
+	display: inline-block;
+}
+
+.ul2{
+	display: table; 
+}
+
+.li2{
+	display: table-cell; 
+	border: 1px solid #DDDDDD; 
+	padding: 5px; 
+}
