@@ -17,3 +17,22 @@ li{
 	border: 1px solid #DDDDDD; 
 	padding: 5px; 
 }
+
+.container{
+	padding: 10px;
+	background: beige;
+}
+
+.photo{
+	float: left;
+}
+
+p{
+	clear: both;
+}
+
+.clearfix::after{
+	display: block; 
+	content: "";
+	clear: both;
+}
