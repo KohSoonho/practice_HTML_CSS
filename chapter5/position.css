@@ -1,0 +1,58 @@
+@charset "utf-8"; 
+body {
+	background-color: beige;
+}
+
+h1 {
+	padding: 10px 20px;
+	background-color: tomato;
+	color: white;
+	font-size: 22px;
+}
+
+.photo{
+	display: inline-block; 
+	padding: 10px 10px 50px; 
+	background-color: white;
+	border: 1px solid lightgray;
+}
+
+.box p {
+	position: fixed;
+	top: 20px;
+	right: 0px;
+	margin 0;
+	padding: 5px 10px; 
+	background-color: darkblue;
+	color: white;
+}
+
+.box {
+	display: inline-block;
+	position: relative
+}
+
+.box2 {
+	position: relative;
+}
+
+.photo01 {
+	top: 20px;
+	left: 20px;
+	z-index: 3; 
+	position: absolute;
+}
+
+.photo02 {
+	top: 120px;
+	left: 120px;
+	z-index: 2; 
+	position: absolute; 
+}
+
+.photo03 {
+	top: 220px; 
+	left: 220px; 
+	z-index: 1; 
+	position: absolute; 
+}
