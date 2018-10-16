@@ -3,6 +3,7 @@
 <head>
   <title>form</title>
   <meta charset = "utf-8">
+  <link rel = "stylesheet" href = "form.css">
 </head>
 
 <body>
@@ -14,7 +15,59 @@
     <p><input type = "password" id = "pass"></p>
     <p>テキストエリア</p>
     <textarea cols = "40" rows = "10" placeholder = "input some text"></textarea>
+    <p><input type = "submit" value = "send"></p>
+    <p><button type = "submit">send</button></p>
+    <p>
+      <button type = "reset">reset</button>
+      <button type = "button" onclick = "alert('put this button, delete text')">caution!</button>
+    </p>
+    <hr>
+
+    <p>クロックムッシュはどこの国の食べ物？</p>
+    <p>
+      <label><input type = "radio" name = "question" value = "イギリス">イギリス</label><br>
+      <label><input type = "radio" name = "question" value = "フランス">フランス</label><br>
+      <label><input type = "radio" name = "question" value = "ドイツ" checked>ドイツ</label><br>
+      <label><input type = "radio" name = "question" value = "スペイン">スペイン</label>
+    </p>
+
+    <hr>
+
+    <p>この中で好きな食べ物をすべてチェックしてください</p>
+    <p>
+      <label><input type = "checkbox" name = "lovefoods" value = "サンドイッチ" checked>サンドイッチ</label><br>
+      <label><input type = "checkbox" name = "lovefoods" value = "ハンバーガー" checked>ハンバーガー</label><br>
+      <label><input type = "checkbox" name = "lovefoods" value = "クロックムッシュ">クロックムッシュ</label><br>
+      <label><input type = "checkbox" name = "lovefoods" value = "クロックマダム">クロックマダム</label><br>
+      <label><input type = "checkbox" name = "lovefoods" value = "ホットドック">ホットドック</label><br>
+      <label><input type = "checkbox" name = "lovefoods" value = "おにぎり">おにぎり</label>
+    </p>
+
+    <hr>
+
+    <p><label for = "question2" name = "question1">クロックムッシュはどこの食べ物</p>
+    <p>
+      <select name = "question2" id = "question2">
+        <option value = "England">イギリス</option>
+        <option value = "France" selected>フランス</option>
+        <option value = "Germany">ドイツ</option>
+        <option value = "Spain">スペイン</option>
+      </select>
+    </p>
+
   </form>
+
+  <div>
+    <h1>フォームボタンの編集</h1>
+    <form>
+      <p><button type = "submit" class = "button1">send!</button></p>
+      <p><button type = "submit" class = "button2">send!</button></p>
+      <p><button type = "submit" class = "button3">send!</button></p>
+      <p><button type = "submit" class = "button4">send!</button></p>
+      <p><button type = "submit" class = "button5">send!</button></p>
+    </form>
+  </div>
+  <div class = "box"></div>
 </body>
 
 </html>
