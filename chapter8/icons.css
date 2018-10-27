@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+.icon {
+  padding-left: 30px;
+  background: url("./icon2.png") no-repeat left top;
+  background-size: 25px;
+}
+
+.icon2_b::before {
+  content: url("./icon3.png");
+  display: inline-block;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+.icon2_a::after {
+  content: url("./icon3.png");
+  display: inline-block;
+  margin-left: 5px;
+  vertical-align: middle;
+}
+
+.icon2_i::before {
+  content: "";
+  display: inline-block;
+  width: 18px;
+  height: 15px;
+  margin-right: 5px;
+  background: url("./icon3.png") no-repeat;　
+  background-size: contain;
+  vertical-align: middle;
+}
+
+// 本来はこの使い方は望ましくない。
+.info::after {
+  content: "New!";
+  display: inline-block;
+  margin-left: 5px;
+  font-size: 12px;
+  color: red;
+}
+
+.download li {
+  margin-bottom: 10px;
+}
+
+.download a::after {
+  display: inline-block;
+  margin-left: 8px;
+  vertical-align: middele;
+}
+
+.download a[href$=".pdf"]::after {
+  content: url("./icon_pdf.png");
+}
+
+.download a[href$=".jpg"]::after {
+  content: url("./icon_jpg.png");
+}
