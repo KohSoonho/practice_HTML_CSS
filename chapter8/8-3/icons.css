@@ -31,7 +31,6 @@
   vertical-align: middle;
 }
 
-// 本来はこの使い方は望ましくない。
 .info::after {
   content: "New!";
   display: inline-block;

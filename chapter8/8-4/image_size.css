@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.photo1 {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.photo1 img {
+  width: 100%;
+  height: auto;
+}
+
+.container {
+  width: 1000px;
+  margin: 0px;
+}
+
+.photo2 {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.photo2 img {
+  width: 100%;
+  height: auto;
+}
